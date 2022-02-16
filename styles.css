@@ -1,0 +1,41 @@
+body {
+    display: contents;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    padding-left: 30px;
+}
+#header img {
+    padding: 30px;
+}
+#header #nav-bar {
+    display: flex;
+    padding: 20px;
+}
+#header a {
+    display: flex;
+    padding: 10px;
+}
+#contacts {
+    display: flexbox;
+}
+/*#video {
+    height: 300px;
+    width: 250px;
+    align-items: center;
+}*/
+@media screen and (max-width: 768px) {
+    #header {
+        background-color: darksalmon;
+    }
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-color: indianred ;
+    }
+}
