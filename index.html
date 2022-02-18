@@ -9,18 +9,17 @@
 
   <body>
     <header id="header">
-      <nav id="nav-bar">
-        <a href="#about" class="nav-link">About</a>
-        <a href="#contact" class="nav-link">Contact</a>
-        <a href="#info" class="nav-link">Info</a>
-      </nav>
+      <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#info" class="nav-link">Info</a></li>
+      </ul>
       <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSwoosh&psig=AOvVaw3X14bTX3Yzr5U3ffDYRtE_&ust=1645105945044000&source=images&cd=vfe&ved=0CAgQjRxqFwoTCNC8ma2vhPYCFQAAAAAdAAAAABAD" alt="Nike Logo" id="header-img"> 
     </header>
 
-    <video width= "100%" id="video" poster="Nike Advert" controls>
-
-      <source src="https://www.youtube.com/watch?v=eGUor824a74" type="video/mp4">
-    </video>
+    <div class="iframe-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/eGUor824a74" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
     <form action="" id="form">
       <label for="email">Email</label>
